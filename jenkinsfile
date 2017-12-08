@@ -1,4 +1,6 @@
 #!/usr/bin/env groovy
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/saikadiyala1994/newtestingrepo.git/'], pipelineTriggers([githubPush()])])
+
 pipeline {
     agent any 
 
